@@ -1,0 +1,7 @@
+title="Python CLI Started Code - Local TOML config"
+author="Mr. B"
+email= "mrb.77ii3@gmail.com"
+
+[logging]
+    log_config = "config/logging.yaml"
+

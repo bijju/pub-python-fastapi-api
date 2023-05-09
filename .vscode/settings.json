@@ -1,0 +1,55 @@
+{
+  "cSpell.words": [
+    "addcookies",
+    "arop",
+    "envns",
+    "ETML",
+    "fastapi",
+    "getcookies",
+    "ivar",
+    "LEHM",
+    "levelname",
+    "mspdpnjcssfs",
+    "mtom",
+    "mypassword",
+    "pbhattar",
+    "Posi",
+    "positionlog",
+    "pyws",
+    "pywsgatewayclient",
+    "Riskof",
+    "rootpart",
+    "rrhs",
+    "rtype",
+    "servicedefinition",
+    "soapheaders",
+    "swilliamson",
+    "threashold",
+    "timestr",
+    "unmarshalling",
+    "UUSD",
+    "uvicorn",
+    "WORKDIR",
+    "WSEP",
+    "Zipapps"
+  ],
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": ["-ExecutionPolicy", "ByPass"]
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "icon": "terminal-cmd"
+    },
+    "GitBash": {
+      "path": ["F:\\Program files\\Git\\bin\\bash.exe"],
+      "icon": "terminal-bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}

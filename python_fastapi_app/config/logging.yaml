@@ -1,0 +1,27 @@
+version: 1
+disable_existing_loggers: true
+
+formatters:
+    standard:
+        format: "[YamlConfig] %(asctime)s - <PID %(process)d:%(processName)s> - %(pathname)s:%(lineno)d - %(funcName)s:%(lineno)d - %(name)s - %(levelname)s: %(message)s"
+    error:
+        format: "[YamlConfig] %(asctime)s - <PID %(process)d:%(processName)s> - %(pathname)s:%(lineno)d - %(funcName)s:%(lineno)d - %(name)s - %(levelname)s: %(message)s"
+
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: INFO
+        formatter: standard
+        stream: ext://sys.stdout
+
+loggers:
+    simpleExample:
+        level: INFO
+        handlers: [console]
+        propagate: true
+    uvicorn:
+        error:
+            propagate: true
+root:
+    level: INFO
+    handlers: [console]

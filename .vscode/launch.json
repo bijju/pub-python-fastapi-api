@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "[Run] App Main",
+            "type": "python",
+            "request": "launch",
+            "program": "__main__.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/python_cli_app_example",
+            "purpose": ["debug-in-terminal"]
+          },
+        {
+        "name": "Builder - Zipapp File",
+        "type": "python",
+        "request": "launch",
+        "program": "build.py",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        "cwd": "${workspaceFolder}"
+        }
+    ]
+}
